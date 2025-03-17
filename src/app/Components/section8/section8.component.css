@@ -1,0 +1,40 @@
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #061e5c;
+    padding: 20px;
+    gap: 25px;
+    button{
+        padding: 20px;
+        background-color: #5034fc;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    button{
+        background-color:#5034fc;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    input{
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid grey;
+    }
+}
+
+.left{
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}

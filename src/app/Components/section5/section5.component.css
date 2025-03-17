@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    .block{
+        box-shadow: 3px 3px 3px grey;
+        padding: 30px;
+        text-align: left;
+    }
+}
+
+.features{
+    padding: 20px;
+    background-color: #5034fc;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+}
+
+.money{
+    font-size: 30px;
+    color: #322871;
+    font-weight: 900;
+}
+ul{
+    margin: 20px;
+}
+
+.buy{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #322871;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}

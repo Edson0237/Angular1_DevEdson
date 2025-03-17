@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: #061e5c;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    div{
+        text-align: center;
+        color: white;
+    }
+    .large{
+        font-size: 30px;
+        font-weight: 900;
+    }
+}

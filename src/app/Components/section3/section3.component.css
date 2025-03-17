@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: rgb(244, 253, 253);
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    button{
+        padding: 20px;
+        background-color: #5034fc;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        font-size: 15px;
+    }
+}

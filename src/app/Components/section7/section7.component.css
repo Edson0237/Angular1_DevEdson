@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(213, 223, 237);
+    padding: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gras{
+    font-size: 30px;
+    font-weight: 900;
+}
+.features{
+    padding: 20px;
+    background-color: #5034fc;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    .block{
+        text-align: start;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        .nom{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

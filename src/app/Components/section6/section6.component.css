@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    .block{
+        box-shadow: 3px 3px 3px grey;
+        text-align: center;
+        border-radius: 10px;
+        img{
+            border-radius: 10px 10px 0px 0px;
+        }
+    }
+}
+
+.features{
+    padding: 20px;
+    background-color: #5034fc;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+}
+
+.money{
+    font-size: 15px;
+    color: grey;
+}

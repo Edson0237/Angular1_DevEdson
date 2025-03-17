@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(244, 253, 253);
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.features{
+    padding: 20px;
+    background-color: #5034fc;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    .block{
+        padding: 20px;
+        box-shadow: -3px 3px 3px 3px grey;
+        background-color: #fff;
+    }
+}
